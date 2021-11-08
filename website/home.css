@@ -1,0 +1,71 @@
+body{
+    background-image: url('Home Page.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.T_54{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.T_54b {
+    font-family: 'Tangerine';
+    font-size: 54px;
+    margin-right: 5px;
+}
+
+.T_54r {
+    font-family: 'Tangerine';
+    font-weight: bold;
+    font-size: 54px;
+    color: #F34D4D;
+}
+
+.T_54b,.T_54r {
+    display: inline;
+}
+
+.T_64{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.T_64b {
+    font-family: 'Tangerine';
+    font-size: 64px;
+    margin-right: 5px;
+}
+
+.T_64r {
+    font-family: 'Tangerine';
+    font-weight: bold;
+    font-size: 64px;
+    color: #F34D4D;
+}
+
+.T_64b,.T_64r {
+    display: inline;
+}
+
+.homeArrow{
+    margin-top: 320px;
+    text-align: center;
+}
+
+
+.user{
+    max-height: 32px;
+    position: absolute;
+    top: 22px;
+    right: 112px;
+}
+
+.login{
+    font-family: 'Gabriola';
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}

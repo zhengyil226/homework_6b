@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Product</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <!-- script -->
+    <script type="text/javascript" src="product.js"></script>
+</head>
+
+<body>
+    <!-- items -->
+    <div class="item">
+        <div class="original">
+            <img src="chef_tag.png" id="chef1">
+            <img src="best_tag.png" id="best1">
+            <img src="original.jpg" id="img1">
+            <div id="name1">Original</div>
+            <div id="price1">$5.50</div>
+        </div>
+        <div class="blackberry">
+            <img src="chef_tag.png" id="chef2">
+            <img src="best_tag.png" id="best2">
+            <img src="fruit_tag.png" id="fruit1">
+            <img src="blackberry.jpg" id="img2">
+            <div id="name2">Blackberry</div>
+            <div id="price2">$7.50</div>
+        </div>
+        <div class="walnut">
+            <img src="chef_tag.png" id="chef3">
+            <img src="nut_tag.png" id="nut1">
+            <!-- link to product detail page -->
+            <a href="product detail.html">
+                <img src="walnut.jpg" id="img3">
+            </a>
+            <div id="name3">Walnut</div>
+            <div id="oldPrice1">$7.50</div>
+            <div id="price3">$6.50</div>
+            <img src="line1.png" id="line1">
+        </div>
+        <div class="original_gf">
+            <img src="chef_tag.png" id="chef4">
+            <img src="best_tag.png" id="best3">
+            <img src="original.jpg" id="img4">
+            <div id="name4">Original (Gluten-free)</div>
+            <div id="price4">$5.50</div>
+        </div>
+        <div class="pumpkin">
+            <img src="chef_tag.png" id="chef5">
+            <img src="fruit_tag.png" id="fruit2">
+            <img src="pumpkin.jpg" id="img5">
+            <div id="name5">Pumpkin Spice</div>
+            <div id="oldPrice2">$8.50</div>
+            <div id="price5">$7.50</div>
+            <img src="line1.png" id="line2">
+        </div>
+        <div class="caramel">
+            <img src="chef_tag.png" id="chef6">
+            <img src="best_tag.png" id="best3">
+            <img src="nut_tag.png" id="nut2">
+            <img src="caramel.jpg" id="img6">
+            <div id="name6">Caramel Pecan</div>
+            <div id="price6">$8.50</div>
+        </div>
+        <div class="original">
+            <img src="chef_tag.png" id="chef1">
+            <img src="best_tag.png" id="best1">
+            <img src="original.jpg" id="img1">
+            <div id="name1">Original</div>
+            <div id="price1">$5.50</div>
+        </div>
+        <div class="blackberry">
+            <img src="chef_tag.png" id="chef2">
+            <img src="best_tag.png" id="best2">
+            <img src="fruit_tag.png" id="fruit1">
+            <img src="blackberry.jpg" id="img2">
+            <div id="name2">Blackberry</div>
+            <div id="price2">$7.50</div>
+        </div>
+    </div>
+    <div class="white"></div>
+    <!-- home logo -->
+    <div class="logo">
+        <img src="Bun Bun_small.png" />
+    </div>
+    <!-- user account -->
+    <div class="userLogin">
+        <img src="user_grey.png" />
+        <div id="welcome">Welcome,</div>
+        <div id="name">Eric Li</div>
+    </div>
+    <!-- my cart -->
+    <div class="myCart" onclick="showMenu()">
+        <img src="Rectangle1.png" id="rec1"/>
+        <img src="Cart.svg" id="cart" />
+        <div id="text1">My Cart</div>
+    </div>
+    <div class="numItem">
+        <img src="Circle1.png"/>
+        <div id="numItem">1</div>
+    </div>
+    <!-- navigation bar -->
+    <div class="navBar">
+        <img src="navBar.png" id="rec2" />
+        <img src="currBar.png" id="rec3" />
+        <div class="all">All</div>
+        <div class="chef">
+            <img src="chef.svg" />
+            <div id="text2">Chef Recommend</div>
+        </div>
+        <div class="best">
+            <img src="best.svg" />
+            <div id="text3">Best Seller</div>
+        </div>
+        <div class="fruit">
+            <img src="fruit.svg" />
+            <div id="text4">Fruit</div>
+        </div>
+        <div class="nut">
+            <img src="nut.svg" />
+            <div id="text5">Nut</div>
+        </div>
+        <div class="more">
+            <img src="arrow2.png" />
+        </div>
+    </div>
+    <!-- view mode -->
+    <div class="viewMode">
+        <img src="viewMode.png" id="rec4" />
+        <img src="currMode.png" id="rec5" />
+        <img src="gallery.svg" id="gallery" />
+        <img src="album.svg" id="album" />
+    </div>
+    <!-- cart menu -->
+    <div class='cartMenu'>
+        <img id='menuBack' src='Rectangle3.png'>
+        <div id="youHave">You have</div>
+        <div id="numItem">1</div>
+        <div id='items'>item</div>
+        <div id='dollar'>$</div>
+        <div id='totalCost'>16.50</div>
+        <img id="div1" src='line5.png'>
+        <!-- item 1 -->
+        <div class='item1'>
+            <div id="num1">1</div>
+            <img id="item1Pic" src='original2.jpg'>
+            <div id='item1Name'>Original</div>
+            <div id="item1Price">$5.50</div>
+            <img id='item1Lab1' src="chef_tag.png">
+            <img id='item1Lab2' src='best_tag.png'>
+            <div id="item1Det">View Details</div>
+            <img id='item1DetLine' src='line4.png'>
+            <div id='item1Qty'>
+                <div id='qtyText1'>Qty:</div>
+                <div id='qty1'>3</div>
+                <img src="downArrow.png">
+            </div>
+            <div id='item1Rem'>
+                <div id="remText1">Remove</div>
+            </div>
+            <img id='div2' src="line5.png">
+        </div>
+        <div id='checkout'>
+            <img src="checkoutArrow.png">
+            <div id="checkoutText">Checkout</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

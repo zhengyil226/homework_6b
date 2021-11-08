@@ -1,0 +1,428 @@
+/* home logo */
+
+.logo img{
+	position: fixed;
+	top: -20px;
+	left: 20px;
+}
+
+/* user account */
+
+.userLogin img{
+	max-height: 32px;
+	position: fixed;
+	top: 22px;
+	right: 347px;
+}
+
+.userLogin #welcome {
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #818181;
+    position: fixed;
+    top: 20px;
+    right: 265px;
+}
+
+.userLogin #name {
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 210px;
+}
+
+/* my cart */
+
+.myCart #rec1{
+	max-height: 46px;
+	position: fixed;
+	top: 17px;
+	right: 40px;
+}
+
+.myCart #cart{
+	max-height: 28px;
+	position: fixed;
+	top: 25px;
+	right: 137px;
+}
+
+.myCart #text1{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 57px;
+}
+
+/* order info */
+
+.orderInfo #orderDate{
+	font-family: 'Gabriola';
+    font-size: 42px;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+}
+
+.orderInfo #orderTime{
+	font-family: 'Gabriola';
+    font-size: 28px;
+    color: #818181;
+    position: absolute;
+    top: 122px;
+    left: 265px;
+}
+
+.orderInfo #orderNum{
+	font-family: 'Gabriola';
+    font-size: 28px;
+    position: absolute;
+    top: 122px;
+    right: 150px;
+}
+
+/* order tracking */
+
+.orderMap img{
+	position: absolute;
+	top: 173px;
+	left: 10%;
+	width: 80%;
+}
+
+.orderBack img{
+	position: absolute;
+	top: 185px;
+	left: 11%;
+	width: 36%;
+}
+
+.orderScroll img{
+	position: absolute;
+	top: 220px;
+	left: 45.5%;
+	height: 30%;
+}
+
+/* order state */
+
+/* arrival time */
+
+.orderState #arrivalTime{
+	font-family: 'Gabriola';
+    font-size: 54px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 13.5%;
+}
+
+.orderState #am_pm{
+	font-family: 'Gabriola';
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    left: 19%;
+}
+
+.orderState #estimate_latest{
+	font-family: 'Gabriola';
+    font-size: 28px;
+    color: #B4B4B4;
+    position: absolute;
+    top: 220px;
+    left: 21.5%;
+}
+
+/* progress bar */
+
+.orderState #bakingPic{
+	position: absolute;
+	top: 300px;
+	left: 16.5%;
+}
+
+.orderState #progress1{
+	position: absolute;
+	top: 317px;
+	left: 19%;
+}
+
+.orderState #qualityCheckPic{
+	position: absolute;
+	top: 300px;
+	left: 24%;
+}
+
+.orderState #progress2{
+	position: absolute;
+	top: 317px;
+	left: 26.5%;
+}
+
+.orderState #pickupPic{
+	position: absolute;
+	top: 300px;
+	left: 31.5%;
+}
+
+.orderState #progress3{
+	position: absolute;
+	top: 317px;
+	left: 34%;
+}
+
+.orderState #deliveredPic{
+	position: absolute;
+	top: 300px;
+	left: 39%;
+}
+
+.orderState #baking{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    position: absolute;
+    top: 350px;
+    left: 16.3%;
+}
+
+.orderState #quality{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    position: absolute;
+    top: 340px;
+    left: 23.8%;
+}
+
+.orderState #check{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    position: absolute;
+    top: 363px;
+    left: 24%;
+}
+
+.orderState #pickup{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    position: absolute;
+    top: 350px;
+    left: 31.3%;
+}
+
+.orderState #delivered{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    position: absolute;
+    top: 350px;
+    left: 38.4%;
+}
+
+/* driver info */
+
+.orderState #driverPic{
+	position: absolute;
+	top: 420px;
+	left: 14.5%;
+}
+
+.orderState #driverName{
+	font-family: 'Gabriola';
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 410px;
+    left: 19%;
+}
+
+.orderState #driverState{
+	font-family: 'Gabriola';
+    font-size: 21px;
+    position: absolute;
+    top: 413.5px;
+    left: 22.5%;
+}
+
+.orderState #address{
+	font-family: 'Gabriola';
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    top: 411px;
+    left: 29.4%;
+}
+
+.orderState #callIcon{
+	position: absolute;
+	top: 455px;
+	left: 19.2%;
+}
+
+.orderState #call{
+	font-family: 'Gabriola';
+    font-size: 21px;
+    position: absolute;
+    top: 450px;
+    left: 21.2%;
+}
+
+.orderState #line3{
+	position: absolute;
+	top: 480px;
+	left: 21.3%;
+	width: 6%;
+}
+
+.orderState #textIcon{
+	position: absolute;
+	top: 457px;
+	left: 29%;
+}
+
+.orderState #text{
+	font-family: 'Gabriola';
+    font-size: 21px;
+    position: absolute;
+    top: 450px;
+    left: 31%;
+}
+
+.orderState #line4{
+	position: absolute;
+	top: 480px;
+	left: 31%;
+	width: 6.5%;
+}
+
+.divisionLine{
+	position: absolute;
+	top: 500px;
+	left: 14%;
+	width: 31%;
+}
+
+/* order summary */
+
+.orderSummary #orderSummary{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 525px;
+    left: 14%;
+}
+
+.orderSummary #totalCost{
+	font-family: 'Gabriola';
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 520px;
+    left: 39%;
+}
+
+.orderSummary #itemNum{
+	font-family: 'Gabriola';
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 585px;
+    left: 15%;
+}
+
+.orderSummary #itemPic{
+	position: absolute;
+	top: 582px;
+	left: 18%;
+}
+
+.orderSummary #itemName{
+	font-family: 'Gabriola';
+    font-size: 18px;
+	position: absolute;
+	top: 567px;
+	left: 25%;
+}
+
+.orderSummary #itemQty{
+	font-family: 'Gabriola';
+    font-size: 18px;
+	position: absolute;
+	top: 567px;
+	left: 34.5%;
+}
+
+.orderSummary #qty{
+	font-family: 'Gabriola';
+    font-size: 25px;
+    font-weight: bold;
+    color: #F34D4D;
+	position: absolute;
+	top: 558px;
+	left: 36.5%;
+}
+
+.orderSummary #itemCost{
+	font-family: 'Gabriola';
+    font-size: 23px;
+	position: absolute;
+	top: 562px;
+	left: 40%;
+}
+
+.orderSummary #itemSize{
+	font-family: 'Gabriola';
+    font-size: 16px;
+    color: #818181;
+	position: absolute;
+	top: 595px;
+	left: 25%;
+}
+
+.orderSummary #itemSweet{
+	font-family: 'Gabriola';
+    font-size: 16px;
+    color: #818181;
+	position: absolute;
+	top: 615px;
+	left: 25%;
+}
+
+.orderSummary #itemGlazing{
+	font-family: 'Gabriola';
+    font-size: 16px;
+    color: #818181;
+	position: absolute;
+	top: 635px;
+	left: 25%;
+}
+
+.orderSummary #rec{
+	position: absolute;
+	top: 650px;
+	left: 12%;
+	width: 32%;
+}
+
+/* order notice */
+
+.orderNotice img{
+	position: absolute;
+	top: 662px;
+	left: 19%;
+}
+
+.orderNotice #notice{
+	font-family: 'Gabriola';
+    font-size: 18px;
+    font-weight: bold;
+	position: absolute;
+	top: 660px;
+	left: 21%;
+}

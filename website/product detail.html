@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Product Detail</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="product detail.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <!-- script -->
+    <script type="text/javascript" src="product detail.js"></script>
+</head>
+
+<body>
+    <!-- home logo -->
+    <div class="logo">
+        <img src="Bun Bun_small.png" />
+    </div>
+    <!-- user account -->
+    <div class="userLogin">
+        <img src="user_grey.png" />
+        <div id="welcome">Welcome,</div>
+        <div id="name">Eric Li</div>
+    </div>
+    <!-- my cart -->
+    <div class="myCart" onclick="showMenu()">
+        <img src="Rectangle1.svg" id="rec1">
+        <img src="Cart.svg" id="cart" />
+        <div id="text1">My Cart</div>
+    </div>
+    <div class="numItem">
+        <img src="Circle1.png"/>
+        <div id="numItem">1</div>
+    </div>
+    <!-- navigation bar -->
+    <div class="navBar">
+        <img src="navBar.png" id="rec2" />
+        <img src="currBar.png" id="rec3" />
+        <div class="all">All</div>
+        <div class="chef">
+            <img src="chef.svg" />
+            <div id="text2">Chef Recommend</div>
+        </div>
+        <div class="best">
+            <img src="best.svg" />
+            <div id="text3">Best Seller</div>
+        </div>
+        <div class="fruit">
+            <img src="fruit.svg" />
+            <div id="text4">Fruit</div>
+        </div>
+        <div class="nut">
+            <img src="nut.svg" />
+            <div id="text5">Nut</div>
+        </div>
+        <div class="more">
+            <img src="arrow2.png" />
+        </div>
+    </div>
+    <!-- view mode -->
+    <div class="viewMode">
+        <img src="viewMode.png" id="rec4" />
+        <img src="currMode.png" id="rec5" />
+        <img src="gallery.svg" id="gallery" />
+        <img src="album.svg" id="album" />
+    </div>
+    <!-- bottom page -->
+    <div class="bottom"></div>
+    <!-- middle page -->
+    <div class="middle"></div>
+    <!-- top page -->
+    <div class="top1">
+        <!-- item picture -->
+        <img src="walnut.jpg" id="walnut1">
+        <div class="photo">
+            <img src="walnut1.jpg" id="photo1">
+            <img src="walnut2.jpg" id="photo2">
+            <img src="walnut3.jpg" id="photo3">
+            <img src="walnut4.jpg" id="photo4">
+        </div>
+    </div>
+    <div class="top2">
+        <!-- item details -->
+        <img src="details.png" id="details">
+        <!-- size -->
+        <div id="size">Size:</div>
+        <div class="size">
+            <input type="radio" id="regular" name="size" value="Regular" onclick="updatePrice(1)">
+            <label for="regular">Regular (2 in.)</label><br>
+            <input type="radio" id="large" name="size" value="Large" onclick="updatePrice(2)">
+            <label for="large">Large (4 in.)</label>
+            <div id="largeMon">(+$4.00)</div><br>
+        </div>
+        <!-- sweetness -->
+        <div id="sweetness">Sweetness:</div>
+        <div class="scaleLabel">
+            <div id="little">Little</div>
+            <div id="medium">Medium</div>
+            <div id="extreme">Extreme</div>
+            <div id="labelBar">
+                <img src="labelBar.png">
+                <img src="labelBar.png">
+                <img src="labelBar.png">
+                <img src="labelBar.png">
+                <img src="labelBar.png">
+            </div>
+        <div class="scaleBar">
+            <input type="range" min="1" max="5" id="sweetScale">
+        </div>
+        </div>
+        <!-- glazing -->
+        <div id="glazing">Glazing:</div>
+        <div class="glazing">
+            <input type="radio" id="none" name="glazing" value="None" onclick="updatePrice(3)">
+            <label for="none">None</label><br>
+            <input type="radio" id="sugar" name="glazing" value="Sugar" onclick="updatePrice(4)">
+            <label for="sugar">Sugar Milk</label>
+            <div id="sugarMon">(+$0.50)</div><br>
+            <input type="radio" id="vanilla" name="glazing" value="Vanilla" onclick="updatePrice(5)">
+            <label for="vanilla">Vanilla Milk</label>
+            <div id="vanillaMon">(+$0.50)</div><br>
+            <input type="radio" id="choco" name="glazing" value="Choco" onclick="updatePrice(6)">
+            <label for="choco">Double Chocolate</label>
+            <div id="chocoMon">(+1.00)</div><br>
+        </div>
+    </div>
+    <!-- select quantity and add to cart -->
+    <div class="quantity">
+        <div id="qty">Qty:</div>
+        <div id="num">1</div>
+        <img src="arrow3.png" id="showQty">
+    </div>
+    <div class="addCart" onclick="add()">
+        <div id="cost">$6.50</div>
+        <img src="add.png" id="add">
+        <img src="cart.png" id="cart">
+    </div>
+    <!-- turn page -->
+    <div class="leftArrow"><img src="leftArrow.png"></div>
+    <div class="rightArrow"><img src="rightArrow.png"></div>
+     <!-- cart menu -->
+    <div class='cartMenu'>
+        <img id='menuBack' src='Rectangle3.png'>
+        <div id="youHave">You have</div>
+        <div id="numItem_old">1</div>
+        <div id='items_old'>item</div>
+        <div id="numItem_new">2</div>
+        <div id='items_new'>items</div>
+        <div id='dollar'>$</div>
+        <div id='totalCost'>16.50</div>
+        <img id="div1" src='line5.png'>
+        <!-- item 1 -->
+        <div class='item1'>
+            <div id="num1">1</div>
+            <img id="item1Pic" src='original2.jpg'>
+            <div id='item1Name'>Original</div>
+            <div id="item1Price">$5.50</div>
+            <img id='item1Lab1' src="chef_tag.png">
+            <img id='item1Lab2' src='best_tag.png'>
+            <div id="item1Det">View Details</div>
+            <img id='item1DetLine' src='line4.png'>
+            <div id='item1Qty'>
+                <div id='qtyText1'>Qty:</div>
+                <div id='qty1'>3</div>
+                <img src="downArrow.png">
+            </div>
+            <div id='item1Rem'>
+                <div id="remText1">Remove</div>
+            </div>
+            <img id='div2' src="line5.png">
+        </div>
+        <!-- item 2 -->
+        <div class='item2'>
+            <div id="num2">2</div>
+            <img id="item2Pic" src='walnut2.png'>
+            <div id='item2Name'>Walnut</div>
+            <div id="item2Price">$6.50</div>
+            <img id='item2Lab1' src="chef_tag.png">
+            <img id='item2Lab2' src='nut_tag.png'>
+            <div id="item2Det">View Details</div>
+            <img id='item2DetLine' src='line4.png'>
+            <div id='item2Qty'>
+                <div id='qtyText2'>Qty:</div>
+                <div id='qty2'>1</div>
+                <img src="downArrow.png">
+            </div>
+            <div id='item2Rem' onclick="remove()">
+                <div id="remText2">Remove</div>
+            </div>
+            <img id='div3' src="line5.png">
+        </div>
+        <div id='checkout'>
+            <img src="checkoutArrow.png">
+            <div id="checkoutText">Checkout</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
